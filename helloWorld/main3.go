@@ -3,5 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(7 + 6)
+	a := 7
+	b := 4
+
+	result := a + b
+
+	fmt.Println(result)
 }
